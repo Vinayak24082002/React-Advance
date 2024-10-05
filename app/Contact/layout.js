@@ -1,6 +1,5 @@
 
-import MyContext from "@/Helper/Context";
-import "./globals.css";
+
 
 
 
@@ -10,13 +9,11 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
- 
   return (
     <html lang="en">
       <body>
-        <MyContext>
-          {children}
-        </MyContext>
+        welcome to contact page
+        {children}
       </body>
     </html>
   );
